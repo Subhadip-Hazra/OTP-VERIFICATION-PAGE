@@ -4,44 +4,48 @@ Welcome to SuperOTP Verification Page, where security meets simplicity! 🛡️
 
 ## Overview
 
-SuperOTP Verification Page is your go-to solution for a secure and user-friendly OTP verification process. Crafted with precision using HTML, CSS, and JS, SuperOTP ensures a seamless and trustworthy authentication experience.
+SuperOTP Verification Page is designed to seamlessly integrate a robust one-time password verification process into your project. Crafted with HTML, CSS, and JS, SuperOTP ensures a secure and user-friendly authentication experience.
 
 ## Features
 
-- **Robust Security**: Implement a strong layer of security with our OTP verification process.
-- **User-Friendly Interface**: Provide a hassle-free experience for users during the verification journey.
-- **Customizable and Extendable**: Easily integrate SuperOTP into your project and customize it to suit your needs.
+- **Secure OTP Verification**: Implement a reliable one-time password verification process.
+- **Simplicity in Design**: A clean and intuitive design for a straightforward user experience.
+- **Easy Integration**: Effortlessly integrate SuperOTP into your project for enhanced security.
 
 ## How to Use
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/YourUsername/otp-verification-page.git
+   git clone https://github.com/Subhadip-Hazra/otp-verification-page-for-any-websites.git
    ```
 
 2. **Open in Your Browser or Integrate:**
    - Open `otp-verification.html` in your browser for a quick demo.
-   - Integrate SuperOTP Verification into your project seamlessly.
+   - Integrate SuperOTP into your project to bolster your authentication process.
 
 3. **Customize to Fit Your Style:**
-   - Tailor the styles and behavior to align with your project's unique identity.
+   - Tailor the styles and elements to align with your project's visual identity.
 
-## Data Analytics Expertise
+## Demo
 
-Explore my Data Analytics prowess on GitHub:
-[![Data Analytics GitHub](https://img.shields.io/badge/Data%20Analytics-GitHub%20Page-blue)](https://github.com/SUBHA2OO2)
+Experience the OTP verification live:
+
+[![Demo View](https://img.shields.io/badge/Demo-Verify%20Now-blue)](https://subhadip-hazra.github.io/otp-verification-page-for-any-websites/otp-verification.html)
+
+## Data Analytics Pro
+
+As a data analytics enthusiast, you can explore my data analytics projects on GitHub:
+
+[![Data Analytics GitHub](https://img.shields.io/badge/Data%20Analytics-GitHub-green)](https://github.com/SUBHA2OO2)
 
 ## LeetCode
 
-Sharpening my coding skills on LeetCode:
-[![LeetCode Profile](https://img.shields.io/badge/LeetCode-Profile-orange)](https://leetcode.com/IamHazra)
+Challenge me on LeetCode:
 
-## Want to Contribute?
-
-Your contributions are valued! Feel free to open an issue or submit a pull request to enhance SuperOTP together.
+[![LeetCode](https://img.shields.io/badge/LeetCode-Challenge%20Me-yellow)](https://leetcode.com/IamHazra)
 
 ## Connect with Me
 
 Let's connect and discuss more! Find me on [LinkedIn](https://www.linkedin.com/in/subhadiphazra). Say hello, and let's build something extraordinary!
 
-Happy coding! 🔐
+Happy coding and securing! 🔒
