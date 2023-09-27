@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Lilita+One&display=swap');
+
+* {
+    font-size: 26px;
+}
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    background-color: rgba(139, 139, 209, 0.527);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensure full viewport height */
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(28, 14, 233, 0.2);
+    color: white;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(57, 5, 242, 0.4);
+    border: 2px solid rgba(67, 14, 227, 0.2);
+    border-radius: 15px;
+}
+
+.container h2 {
+    font-family: 'Lilita One', sans-serif;
+    color: rgba(9, 9, 9, 0.817);
+}
+
+.otp-verification-form {
+    padding: 20px;
+    text-align: center;
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-size: 18px;
+    color: rgba(20, 4, 77, 0.952);
+    font-family: 'Impact', sans-serif;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid rgba(28, 14, 233, 0.2);
+    border-radius: 5px;
+    outline: none;
+}
+
+button.verify-button, button.resend-otp-button {
+    background-color: rgba(28, 14, 233, 0.2);
+    color: rgba(11, 10, 10, 0.788);
+    border: 2px solid rgba(251, 246, 246, 0.1);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+button.verify-button:hover, button.resend-otp-button:hover {
+    background-color: rgba(248, 244, 244, 0.2);
+    transform: scale(1.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.message-container {
+    margin-top: 20px;
+}
+
+.message {
+    font-size: 18px;
+    color: rgba(20, 4, 77, 0.952);
+    font-family: 'Impact', sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+    label {
+        font-size: 16px;
+    }
+
+    input[type="text"] {
+        font-size: 16px;
+    }
+
+    button.verify-button, button.resend-otp-button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    .message {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    label {
+        font-size: 14px;
+    }
+
+    input[type="text"] {
+        font-size: 14px;
+    }
+
+    button.verify-button, button.resend-otp-button {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+
+    .message {
+        font-size: 14px;
+    }
+}

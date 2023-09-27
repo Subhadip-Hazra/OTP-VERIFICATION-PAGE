@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTP Verification</title>
+    <link rel="stylesheet" href="otp-verification.css">
+</head>
+<body>
+    <div class="container">
+        <form class="otp-verification-form" id="otp-verification-form">
+            <h2>OTP Verification</h2>
+            <div class="input-container">
+                <label for="otp">Enter OTP</label>
+                <input type="text" placeholder="Enter OTP" id="otp" name="otp" required>
+            </div>
+            <button class="verify-button" type="submit">Verify OTP</button>
+            <button class="resend-otp-button" id="resend-otp-button">Resend OTP</button>
+            <div class="message-container">
+                <p class="message" id="verification-message"></p>
+            </div>
+            <!-- Add the countdown timer element here -->
+            <div id="countdown-timer">10:00</div>
+        </form>
+    </div>
+    <script src="otp-verification.js"></script>
+</body>
+</html>
